@@ -134,6 +134,9 @@ main {
 	border: none;
 	width: 50%;
 }
+.-croix-select:active {
+	background-color: red;
+}
 
 .btn-rond-select {
 	background-color: rgba(168, 191, 201, 1);
@@ -152,7 +155,6 @@ main {
 	box-shadow: var(--btn-yellow-shadow);
 	font-weight: var(--btn-yellow-weight);
 	color: var(--dark-navy);
-
 }
 
 .btn-blue {
@@ -164,10 +166,9 @@ main {
 	box-shadow: var(--btn-blue-shadow);
 	font-weight: var(--btn-blue-weight);
 	color: var(--dark-navy);
-
 }
 
-.gap-btn-index{
+.gap-btn-index {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -176,21 +177,17 @@ main {
 }
 
 @media screen and (min-width: 750px) {
-	main{
-		
+	main {
 		width: 60%;
 	}
-	body{
+	body {
 		display: flex;
 		justify-content: center;
 	}
-	
 }
 
 @media screen and (min-width: 1440px) {
-	main{
-		
+	main {
 		width: 40%;
 	}
-	
 }
